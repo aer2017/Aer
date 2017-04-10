@@ -267,7 +267,7 @@ html,body{
 }
 @-webkit-keyframes turn_out{
     0%{
-        transform: rotate(0);
+        transform: rotate(0deg);
     }
     100%{
         transform: rotate(360deg);
@@ -275,10 +275,10 @@ html,body{
 }
 @-webkit-keyframes turn_inner{
     0%{
-        transform: rotate(45deg);
+        transform: rotate(0deg);
     }
     100%{
-        transform: rotate(315deg);
+        transform: rotate(360deg);
     }
 }
 .out_circle_content_tiem{
