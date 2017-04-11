@@ -465,3 +465,49 @@ html,body{
 .page_6{
 	position: relative;
 }
+.page_6 h2{
+	font-size: 20px;
+	padding-top: 50px;
+}
+.page_6 h2 .item{
+	padding: 0 25px;
+}
+.page_6 h2 .item-1{
+	color: #f00;
+}
+.page_6 h2 .item-2{
+	color: #3cf;
+}
+.page_6 h2 .item-3{
+	color: #6c0;
+}
+.page_6 h2 .item-4{
+	color: #f63;
+}
+.page_6 p{
+	font-size: 16px;
+	padding-top: 20px;
+	line-height: 50px;
+}
+.page_6 .weixin{
+	width: 200px;
+	height: 288px;
+	opacity: 0.8;
+	background: url(../img/weixin.png) no-repeat center center;
+	background-size: 200px 288px;
+	border-radius: 10px;
+	left: 50%;
+	margin-left: -100px;
+	position: absolute;
+	top: 420px;
+}
+.copyright{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	color: #756D4D;
+	border-top: 1px solid #756D4D;
+}
