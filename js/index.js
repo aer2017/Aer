@@ -12,6 +12,7 @@ var pageTurning = function(pageIndex){
 	for(var i = 0;i<len;i++){
 		outlines[i].style.transform = 'scale(0.3)';
 		outlines[i].style.opacity = 0.2;
+		navs[i].style.transform = 'scale(1)';
 		outlines[i].onmouseover = function(){
 			this.style.transform = 'scale(0.8)';
 			this.style.opacity = 0.8;
@@ -23,6 +24,7 @@ var pageTurning = function(pageIndex){
 	}
 	outlines[pageIndex].style.transform = 'scale(0.8)';
 	outlines[pageIndex].style.opacity = 0.8;
+	navs[pageIndex].style.transform = 'scale(1.3)';
 }
 pageTurning(0);
 //滚轮换页
